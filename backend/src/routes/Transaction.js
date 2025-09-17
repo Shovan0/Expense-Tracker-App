@@ -1,5 +1,4 @@
 import express from 'express'
-import { neon } from '@neondatabase/serverless';
 import { createTransactions, deleteTransactions, getSummary, getTransactions } from '../controllers/transactionController.js';
 
 const router = express.Router();
