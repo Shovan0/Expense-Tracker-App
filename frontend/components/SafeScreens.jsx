@@ -8,7 +8,6 @@ const SafeScreens = ({children}) => {
   return (
     <View style={{paddingTop:insets.top, flex:1, backgroundColor:COLORS.background}}>
       {children}
-      <Text>this is text</Text>
     </View>
   )
 }
